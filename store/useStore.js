@@ -16,7 +16,6 @@ export const useStore = defineStore({
           throw new Error("Network response was not ok");
         }
         this.userProfile = await response.json();
-        console.log(this.userProfile);
       } catch (err) {
         this.error = err.message;
       }

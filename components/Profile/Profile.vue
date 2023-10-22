@@ -168,10 +168,6 @@
         </div>
       </div>
     </div>
-
-    <!-- <pre class="text-white">
-        {{ store.userProfile }}
-    </pre> -->
   </section>
 </template>
 
