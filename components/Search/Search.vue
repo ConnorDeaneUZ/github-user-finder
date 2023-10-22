@@ -48,10 +48,6 @@
         Search
       </button>
     </div>
-
-    <pre class="text-white">
-        {{ userProfile }}
-    </pre>
   </section>
 </template>
 

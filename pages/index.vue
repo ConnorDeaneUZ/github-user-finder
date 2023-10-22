@@ -12,15 +12,6 @@
     <h3 class="text-white uppercase text-xl font-bold">Github User Finder</h3>
     <search />
 
-    <pre v-if="userProfile">
-        {{ userProfile }}
-    </pre>
+    <profile />
   </section>
 </template>
-
-<script setup>
-import { useStore } from "~/store/useStore";
-
-const store = useStore();
-const { userProfile, error, fetchUserProfile } = store;
-</script>
